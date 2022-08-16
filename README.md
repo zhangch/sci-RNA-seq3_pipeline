@@ -8,6 +8,8 @@ script_folder: folder for sub-scripts called by sci3_main.sh.
 
 gene_count_processing_sciRNAseq.R: R script for processing the gene count data - the function of “sciRNAseq_gene_count_summary” accepts the gene count folder and then return a cell annotation data frame, a gene annotation data frame and a gene count sparse matrix. The output can be used as input to commonly used single cell RNA-seq analysis packages. 
 
-
-First time user:
-pip install python-Levenshtein
+---------
+### First time user:
+1. Instill python-Levenshtein package:
+  `pip install python-Levenshtein`
+2. Don't leave empty lines in sample_ID.txt
