@@ -2,6 +2,7 @@
 in this script, I will read into the sam file and the barcode file, and then count the reads number per
 barcode
 '''
+
 import sys
 import matplotlib as mpl
 mpl.use('Agg')

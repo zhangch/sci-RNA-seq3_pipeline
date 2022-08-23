@@ -1,10 +1,11 @@
 
 '''
-This script accept a input sorted sam file, a output sam file, and a mismatch rate, then it will remove
-duplicates based on the barcode + UMI (edit distance <= 1), and chromatin and start site, at the same
-time, it will output the duplication number for each read, and generate the histogram plot for the read
-per duplication number
+    This script accept a input sorted sam file, a output sam file, and a mismatch rate, then it will remove
+    duplicates based on the barcode + UMI (edit distance <= 1), and chromatin and start site, at the same
+    time, it will output the duplication number for each read, and generate the histogram plot for the read
+    per duplication number
 '''
+
 from Levenshtein import distance
 import sys
 import matplotlib as mpl

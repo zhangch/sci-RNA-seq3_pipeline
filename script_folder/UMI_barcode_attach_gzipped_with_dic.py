@@ -1,6 +1,5 @@
 """
 Created on Tue Apr  5 22:16:54 2016
-
 @author: Junyue
 """
 
